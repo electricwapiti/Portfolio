@@ -1,0 +1,7 @@
+// Carbon footprint Calculator - make all parts of it that you planned
+// Backend for leaderboard??? 
+// Show your position in a graph of all users! 
+// Get tips for advancing! 
+// Compare your current footprint to one of your old ones!
+
+//Google Earth Engine 
