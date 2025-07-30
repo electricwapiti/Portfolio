@@ -1,0 +1,28 @@
+<%- include("partials/header.ejs") %>
+
+    <!-- This is another option. -->
+    <h1>Contact Me</h1>
+    <form>
+        <input name="name" type="text" class="feedback-input" placeholder="Name" />
+        <input name="email" type="text" class="feedback-input" placeholder="Email" />
+        <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+        <input type="submit" value="SUBMIT" />
+    </form>
+
+    
+    <!-- Contact Form created with AI. TODO: Rewrite! -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2>Contact</h2>
+            <form action="https://formspree.io/f/YOUR_ID" method="POST">
+            <input type="email" name="email" placeholder="Your Email" required class="form-control mb-2">
+            <textarea name="message" placeholder="Message" required class="form-control mb-2"></textarea>
+            <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!--<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>-->
+    <!--<script src="/JS/index.js"></script>-->
+
+<%- include('partials/footer.ejs') %>
